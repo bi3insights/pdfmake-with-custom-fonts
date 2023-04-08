@@ -53,6 +53,7 @@
     "build:browser": "webpack",
     "build:browser-standard-fonts": "webpack --config webpack-standardfonts.config.js",
     "build:vfs": "node build-vfs.js \"./examples/fonts\"",
+    "build:vfs-custom": "node build-vfs.js \"./fonts/custom\"",
     "build:examples": "node build-examples.js",
     "lint": "eslint \"./src/**/*.js\" \"./tests/**/*.js\" \"./examples/**/*.js\"",
     "mocha": "mocha --reporter spec \"./tests/**/*.js\"",
